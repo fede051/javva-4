@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+        <div>
+             <h1>Tarea 1 repartido 4</h1>    
+             <p>
+                Las array son "hugito"-"Mama"-"Didi"-"Kika"
+             </p>
+        </div>
+    </header>
+    <div>
+        <main>
+            <h2>
+                Metodologia PUSH() 
+            </h2>
+            <p>
+                El método push permite agregar (pushear) elementos a un array. Estos elementos se quedarán al final de la lista.
+            </p>
+            <br>
+
+            <script>
+                
+                var nombres = [" hugito "," Mama "," Didi "," Kika "];
+
+                var push0 = prompt("Escriba un nombre Metodologia PUSH() ");
+                var push1 = prompt("Escriba un nombre Metodologia PUSH() ");
+
+                nombres.push(" " + push0 + " , " + push1);
+
+                document.write (nombres);
+            </script>
+            <h2>
+                Metodologia pop() 
+            </h2>
+            <p>
+                El método pop permite eliminar el último elemento a un array. <b>"KIKA"</b>
+
+            </p>
+            <br>
+            <script>
+                var nombres = [" hugito "," Mama "," Didi "," Kika "];
+
+                nombres.pop();
+
+                document.write(nombres);
+            </script>
+             <h2>
+                Metodologia UNSHIFT() 
+            </h2>
+            <p>
+                El método unshift permite agregar elementos a un array. Estos elementos se quedarán al principio de la lista.
+            </p>
+            <br>
+
+            <script>
+                
+                var nombres = [" hugito "," Mama "," Didi "," Kika "];
+
+                var push2 = prompt("Escriba un nombre Metodologia unshift() ");
+                var push3 = prompt("Escriba un nombre Metodologia unshift() ");
+
+                nombres.unshift(" " + push2 + " , " + push3);
+
+                document.write (nombres);
+            </script>
+            <h2>
+                Metodologia LENGTH
+            </h2>
+            <p>
+                El método length nos retorna el número de elementos que tiene un array. Nos mostrará solamente el número.
+            </p>
+            <br>
+            <script>
+                var nombres = [" hugito "," Mama "," Didi "," Kika "];
+
+
+               document.write(nombres.length);
+            </script>
+             <h2>
+                Metodologia FILTER ()
+            </h2>
+            <p>
+                El método filter() crea un nuevo array con todos los elementos que cumple con la condición por la función dada.
+                <br>
+                Aqui se van a mostrar las palabras que sean mayor a 3 letras.
+            </p>
+            <br>
+            <script>
+                var nombres = [" hugito "," Mama "," Didi "," Kika "];
+
+                var nombres = nombres.filter(nombres => nombres.length >3);
+
+                document.write(nombres);
+
+            </script>
+              <h2>
+                Metodologia MAP ()
+            </h2>
+            <p>
+                El método map crea un nuevo array con los resultado de la llamada a la función indicada aplicados a cada unos de sus elementos.
+                <br>
+               Esta es la array original :  [10,240,320,412];
+            <br>
+            </p>
+            <br>
+            <script>
+                
+                var numeros = [10,240,320,412];
+                var mul = numeros.map(numero => numero*2);
+
+                document.write(mul);
+            </script>
+                <h2>
+                    Metodologia SORT ()
+                </h2>
+                <p>
+                    El método sort sirve para ordenar los elementos de un array alfabéticamente
+                    <br>
+                   Esta es la array original : [" hugito "," Mama "," Didi "," Kika "]; ;
+                <br>
+                </p>
+                <script>
+                            var nombres = [" hugito "," Mama "," Didi "," Kika "];
+                             nombres.sort();
+
+                             document.write(nombres);
+                </script>
+                 <h2>
+                    Metodologia REVERSE ()
+                </h2>
+                <p>
+                    El método reverse sirve para ordenar el array al revés de como fue presentad
+                    <br>
+                   Esta es la array original : [" hugito "," Mama "," Didi "," Kika "]; ;
+                <br>
+                </p>
+                <script>
+                      var nombres = [" hugito "," Mama "," Didi "," Kika "];
+                             nombres.reverse();
+
+                             document.write(nombres);
+                </script>
+              
+
+        </main>
+        <footer>
+            <br>
+            <br>
+           <h2 style="color: red;">FIN DE LA TAREA 2 </h2>
+
+        </footer>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 { 
+    color: red;
+}
+
+div {
+    width:80%;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    margin-top: 3em;
+    
+}
